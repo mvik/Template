@@ -157,3 +157,4 @@ NFR-2 Latency / responsiveness — not applicable — no runtime path changed.
 NFR-3 Reliability / availability — applicable — mitigated by rollback via git revert.
 NFR-4 Auditability / evidence — applicable — mitigated by PR diff and validation checklist.
 NFR-5 Safety / idempotency — applicable — mitigated by docs-only scope and no destructive commands.
+```
