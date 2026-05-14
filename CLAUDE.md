@@ -23,6 +23,21 @@ Before introducing a new process, workflow, abstraction, governance layer, or au
 
 Prefer observable facts over assumptions. If validation is possible, propose it before committing to an approach.
 
+## Verification rule
+
+Before implementation, state how the work will be verified.
+
+Prefer concrete verification:
+
+- tests
+- command output
+- generated artefacts
+- screenshots
+- before/after comparison
+- manual check steps
+
+If there is no clear way to verify the work, stop and ask whether the issue is ready.
+
 ## Decision logging
 
 Record key decisions in `DECISIONS.md`. One line of context is enough. No ceremony required.
