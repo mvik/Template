@@ -26,6 +26,30 @@ Use them as source-of-truth for intent and constraints.
 
 If a request conflicts with the anchors, flag the conflict clearly before continuing.
 
+## Evaluator skills
+
+Use relevant evaluator skills when:
+
+- scope expands
+- decomposition becomes complex
+- implementation readiness is uncertain
+- architecture complexity increases
+- business value becomes unclear
+- simplicity is at risk
+
+Available evaluator skills:
+
+- `skills/scope-drift-detection/SKILL.md`
+- `skills/decomposition-quality/SKILL.md`
+- `skills/definition-of-ready-validator/SKILL.md`
+- `skills/anti-overengineering/SKILL.md`
+- `skills/business-value-alignment/SKILL.md`
+- `skills/simplicity-preservation/SKILL.md`
+
+Evaluator skills critique and strengthen proposed work.
+
+They do not replace PO judgement or the staged grooming process.
+
 ## Scope
 
 You may:
