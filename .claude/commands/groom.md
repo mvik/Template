@@ -26,6 +26,21 @@ This command preserves the staged grooming process:
 - If information is missing, surface the open question.
 - Preserve confirmed decisions as locked carry-forwards from Stage 2 onward.
 
+## Evaluator skills
+
+During grooming, invoke relevant evaluator skills when appropriate:
+
+- `skills/scope-drift-detection/SKILL.md`
+- `skills/decomposition-quality/SKILL.md`
+- `skills/definition-of-ready-validator/SKILL.md`
+- `skills/anti-overengineering/SKILL.md`
+- `skills/business-value-alignment/SKILL.md`
+- `skills/simplicity-preservation/SKILL.md`
+
+Skills are evaluators, not workflow controllers.
+
+Use them to critique and strengthen proposed work, not to replace PO judgement or the staged grooming flow.
+
 ## Stage 1 — Context
 
 Read the project anchors:
