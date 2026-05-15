@@ -31,4 +31,4 @@ echo "5. Flag scope drift or overengineering before proceeding."
 echo "6. Keep the startup summary short; do not turn it into a dashboard."
 echo ""
 
-exit 0
+exit 2
