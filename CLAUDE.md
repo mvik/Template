@@ -1,10 +1,10 @@
-# Claude Instructions
+# Claude Code Session Entry Point
 
-This repo uses a lightweight AI-native operating model.
+This file is the session entry point for Claude Code in this repo.
 
-## Session bootstrap
+At session start, before waiting for detailed work instructions, perform the Session Bootstrap below. Keep it short.
 
-At the beginning of every new session, before starting work:
+## Session Bootstrap — mandatory
 
 1. Read:
    - `README.md`
@@ -12,19 +12,15 @@ At the beginning of every new session, before starting work:
    - `docs/design-principles.md`
    - `docs/project-operating-model.md`
    - up to the 10 most recent files in `docs/session-history/`, if present
-2. Briefly summarize:
+2. Briefly report:
    - current project goal
    - current focus
    - unfinished work
    - recent blockers or decisions
-3. Ask which mode the session is in:
-   - ideation
-   - grooming
-   - implementation
-   - review
-   - debugging
+3. Ask:
+   "What mode are we in today: ideation, grooming, implementation, review, or debugging?"
 
-Keep this bootstrap short. Do not turn it into a status report or dashboard.
+Do not turn this bootstrap into a status report or dashboard.
 
 ## Core discipline
 
