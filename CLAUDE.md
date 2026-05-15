@@ -2,6 +2,30 @@
 
 This repo uses a lightweight AI-native operating model.
 
+## Session bootstrap
+
+At the beginning of every new session, before starting work:
+
+1. Read:
+   - `README.md`
+   - `docs/vision.md`
+   - `docs/design-principles.md`
+   - `docs/project-operating-model.md`
+   - up to the 10 most recent files in `docs/session-history/`, if present
+2. Briefly summarize:
+   - current project goal
+   - current focus
+   - unfinished work
+   - recent blockers or decisions
+3. Ask which mode the session is in:
+   - ideation
+   - grooming
+   - implementation
+   - review
+   - debugging
+
+Keep this bootstrap short. Do not turn it into a status report or dashboard.
+
 ## Core discipline
 
 - **Groom before you implement.** Understand intent, constraints, and acceptance criteria before writing code.
